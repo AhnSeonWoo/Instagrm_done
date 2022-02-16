@@ -1,0 +1,160 @@
+body
+{
+    background-color: rgb(250, 250, 250);
+
+}
+
+a
+{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 60px;
+    color: rgb(61, 162, 227);
+    font-weight:bolder;
+}
+.div1
+{
+    float: left;
+}
+.div2
+{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    height: 380px;
+    width: 350px;
+    background : white;
+    border : 1px solid rgb(219,219,219);
+}
+
+.jpg
+{
+    display: block; margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .jpg1
+    {
+        display: none;
+    }
+}
+p{
+    font-size: 14px;
+}
+
+.container
+{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.idbox
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border : 1px solid rgb(219,219,219);
+    background-color: whitesmoke;
+    border-radius: 3px;
+    width: 260px;
+    height:30px;
+    font-size: 12px;
+}
+.passwordbox
+{
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border : 1px solid rgb(219,219,219);
+    background-color: whitesmoke;
+    border-radius: 3px;
+    width:260px;
+    font-size: 12px;
+    height:30px;
+}
+.loginbox
+{
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(178, 223, 252);
+    border : 1px solid rgb(178, 223, 252);
+    border-radius: 3px;
+    color:white;
+    font-weight: bold;
+    width:270px;
+    height:30px;
+}
+.exbigbox
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 30px;
+    width:75%;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: bold;
+    color:rgb(148, 148, 148);
+
+}
+
+.linebox1
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width:100px;
+    height:1px;
+    background-color:rgb(202, 202, 202);
+}
+.linebox2
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width:100px;
+    height:1px;
+    background-color:rgb(202, 202, 202);
+}
+
+.exbox
+{
+    display: inline-block;
+    border:none;
+    margin: 0 auto;
+    background-color: white;
+}
+.facebook
+{
+    display: block;
+    height: 20px;
+    margin: auto auto;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border:none;
+    background-color: white;
+    color:#385185;
+    text-align: center;
+}
+.findpass
+{
+    display:block;
+    margin: 0px auto;
+    margin-top: 20px;
+    border:none;
+    font-size: 12px;
+    background-color: white;
+    color:#385185;
+}
+.div3
+{
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 350px;
+    background : white;
+    border : 1px solid rgb(219,219,219);
+    font-size: 14px;
+}
